@@ -65,12 +65,12 @@ is_connected()
 
 
 def koneksisipp():
-    dbsipp = mysql.connector.connect(host="127.0.0.1", user="root", passwd="papas123*", database="sipp")
+    dbsipp = mysql.connector.connect(host="localhost", user="user", passwd="******", database="db1")
     return dbsipp
 
 
 def koneksilocal():
-    dblocal = mysql.connector.connect(host="127.0.0.1", user="root", passwd="papas123*", database="wa")
+    dblocal = mysql.connector.connect(host="localhost", user="user", passwd="******", database="db2")
     return dblocal
 
 
